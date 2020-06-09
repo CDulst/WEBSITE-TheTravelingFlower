@@ -2,7 +2,7 @@
 
 ## This simple website displays information about our campaign
 
-There is not a lot of user interaction here that happens in our web app.
+User interaction happens in our Web App
 
 https://github.com/CDulst/WEBAPP-TheTravelingFlower
 
