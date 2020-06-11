@@ -4,6 +4,10 @@ body {
   font-size: var(--fontRegular);
 }
 
+.bold {
+  font-weight: var(--fontWeightBold);
+}
+
 h1, .h1-like {
   /*.....*/
 }
