@@ -37,18 +37,28 @@
 
 .animation__container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 45% 1fr 45%;
+  grid-template-rows: 45% 1fr 45%;
 }
 
 .play {
   z-index: 3;
   grid-row: 2;
   grid-column: 2;
-  margin-top: -4rem;
+  width: 100%;
+  transform: scale(1);
   transition: all ease-in-out .3s;
   cursor: pointer;
+  transform-origin: center;
 
+  @media (--only-large-screen) {
+    margin-top: -6rem;
+
+  }
+}
+
+.play:hover {
+  transform: scale(1.1);
 }
 
 .cross {
@@ -83,7 +93,6 @@
 
 #anim {
   width: 100%;
-  height: 100%;
   z-index: 1;
   grid-row: 1/4;
   grid-column: 1/4;
