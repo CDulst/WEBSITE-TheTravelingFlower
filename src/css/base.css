@@ -29,8 +29,13 @@ ul {
 .main {
   padding-top: 2rem;
   padding-bottom: 2rem;
-  padding-right: 10%;
-  padding-left: 10%;
+  padding-right: 5%;
+  padding-left: 5%;
+
+  @media (--only-medium-screen) {
+    padding-right: 10%;
+    padding-left: 10%;
+  }
 }
 
 h2,.h2-like,h3 {

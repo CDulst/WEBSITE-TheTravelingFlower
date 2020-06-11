@@ -22,14 +22,24 @@
   margin-left: 2rem;
 }
 
+.noWrap {
+  white-space: nowrap;
+}
+
 .section__landingView__bigParagraph {
   color: var(--colorH3Dark);
-  font-size: var(--fontBig);
-  line-height: 3.5rem;
+  font-size: 2rem;
+  line-height: 3rem;
 
   @media (--only-medium-screen) {
     padding-left: 10rem;
     padding-right: 10rem;
+    font-size: var(--spacerBig);
   }
 
+}
+
+.subtitle {
+  text-transform: uppercase;
+  color: var(--subTitle);
 }
