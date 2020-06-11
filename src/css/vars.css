@@ -27,4 +27,4 @@
 @custom-media --only-small-screen (width >= 360px);
 @custom-media --only-regular-screen (width >= 660px);
 @custom-media --only-medium-screen (width >= 1100px);
-@custom-media --only-large-screen (width >= 1400px);
+@custom-media --only-large-screen (width >= 1500px);
