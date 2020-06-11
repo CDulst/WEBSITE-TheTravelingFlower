@@ -6,6 +6,16 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,700|Roboto:700|Abril+Fatface"
   rel="stylesheet">
   <title>The Traveling Flower</title>
+  <style>
+    #anim {
+      max-width: 1700px;
+      margin-right: 12rem;
+      opacity: 70%;
+      position: relative;
+      z-index: 1;
+      grid-row: 1;
+    }
+</style>
 </head>
 
 <body>
@@ -38,7 +48,10 @@
       </ul>
 
       <div class="section__landingView__video">
-      <!--hier moet de lotie animatie inkomen op deze precieze plek!-->
+        <div class = "animation__container">
+          <img class = "play" src="./assets/images/play.png" alt="">
+          <div id="anim" class = "anime"></div>
+          </div>
       </div>
   </section>
 
@@ -123,6 +136,7 @@
 <footer class="footer">
   <img src="./assets/images/logo.svg" alt="Logo__footer">
 </footer>
+
 
 </body>
 </html>
