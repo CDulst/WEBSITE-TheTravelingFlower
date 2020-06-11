@@ -32,3 +32,11 @@ ul {
   padding-right: 10%;
   padding-left: 10%;
 }
+
+h2,.h2-like,h3 {
+  color: var(--colorH3Dark);
+}
+
+.light {
+  color: var(--colorH3Light);
+}
