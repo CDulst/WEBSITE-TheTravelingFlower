@@ -24,5 +24,11 @@
 }
 
 .article__join {
-  height: 30rem;
+  height: 40rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../../assets/images/jungle.png);
+  background-position-y: 2rem;
+  background-repeat: no-repeat;
 }
