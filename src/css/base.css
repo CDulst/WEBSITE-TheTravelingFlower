@@ -31,6 +31,7 @@ ul {
   padding-bottom: 2rem;
   padding-right: 5%;
   padding-left: 5%;
+  overflow: hidden;
 
   @media (--only-medium-screen) {
     padding-right: 10%;

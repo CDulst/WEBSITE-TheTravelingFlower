@@ -1,0 +1,65 @@
+#anim {
+  width: 140vw;
+  opacity: 70%;
+  position: relative;
+  z-index: 1;
+  grid-row: 1;
+  margin-right: 20vw;
+}
+
+.notVisible {
+  opacity: 20%;
+  transition: ease-in-out all 0.3s;
+}
+
+.hidden {
+  display: none;
+}
+
+.appear {
+  display: block;
+}
+
+.video__container {
+width: 99%;
+height: 90vh;
+display: flex;
+justify-content: center;
+position: absolute;
+z-index: 3;
+background-color:white;
+top: 1000px;
+transition: ease-in-out all 0.8s;
+}
+.container__up {
+top: 30px;
+}
+.animation__container{
+display: grid;
+}
+.play{
+z-index: 3;
+grid-row: 1;
+position: relative;
+left: 80vw;
+top:  15vh;
+width: 20vw;
+}
+.play:hover {
+  width: 65%;
+  top: 19rem;
+  left: 47vw;
+}
+.cross{
+  position: relative;
+  width: 40px;
+  height: 40px;
+  left: 82vw;
+  z-index: 4;
+  opacity: 100%;
+}
+.cross:hover{
+  opacity: 40%;
+  cursor: pointer;
+
+}
