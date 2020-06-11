@@ -33,11 +33,11 @@ justify-content: center;
 position: absolute;
 z-index: 3;
 background-color:white;
-top: 1000px;
+top: 2000px;
 transition: ease-in-out all 0.8s;
 }
 .container__up {
-top: 30px;
+top: 500px;
 }
 .animation__container{
 display: grid;

@@ -40,9 +40,18 @@
 
       <div class="section__landingView__video">
         <div class = "animation__container">
-          <img class = "play" src="./assets/images/play.png" alt="">
+          <img onclick="videoActivated()" class = "play" src="./assets/images/play.png" alt="">
           <div id="anim" class = "anime"></div>
           </div>
+          <div class = "hidden vidwrap">
+            <img onclick="videoDeactivated()" class = "cross" src="./assets/images/cross.png" alt="">
+        <video class = "video" width="1300px">
+            <source src="" type="video/mp4">
+            <source src="" type="video/ogg">
+          Your browser does not support the video tag.
+        </video>
+        <p>WTF</p>
+        </div>
       </div>
   </section>
 
@@ -131,6 +140,41 @@
   <img src="./assets/images/logo.svg" alt="Logo__footer">
 </footer>
 
-
+<script>
+  function videoActivated(){
+      console.log("hello");
+      const video = document.querySelector(".video");
+    const doc = document.querySelector(".vidwrap");
+    setTimeout(
+        function(){doc.classList.remove("hidden")}
+        , 275);
+        setTimeout(
+        function(){doc.classList.add("video__container")}
+        , 180);
+       setTimeout(
+        function(){doc.classList.add("container__up")}
+        , 300);
+        setTimeout(
+        function(){video.play()}
+        , 1000);
+   }
+   function videoDeactivated(){
+  console.log("hello");
+  const video = document.querySelector(".video");
+    const doc = document.querySelector(".video__container");
+    setTimeout(
+        function(){video.pause()}
+        , 100);
+    setTimeout(
+        function(){doc.classList.remove("container__up")}
+        , 75);
+        setTimeout(
+        function(){doc.classList.remove("video__container")}
+        , 1000);
+       setTimeout(
+        function(){doc.classList.add("hidden")}
+        , 100);
+   }
+</script>
 </body>
 </html>
