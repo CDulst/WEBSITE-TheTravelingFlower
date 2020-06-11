@@ -1,0 +1,21 @@
+.article__practicalInfo {
+  text-align: center;
+
+  @media (--only-medium-screen) {
+    display: flex;
+    align-items: center;
+    text-align: left;
+  }
+}
+
+.section__paragraph {
+  width: 100%;
+
+  @media (--only-medium-screen) {
+    width: 80%;
+  }
+}
+
+.section__image {
+  width: 100%;
+}
