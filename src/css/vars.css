@@ -8,8 +8,8 @@
   --colorSecondary: #104ccf;
   --colorLight: white;
   --colorBGDark: #0a2f2f;
-  --spacerSmall: .5rem;
-  --spacerRegular: 1rem;
+  --spacerSmall: .8rem;
+  --spacerRegular: 2rem;
   --spacerBig: 2.5rem;
   --fontSmall: 1rem;
   --fontRegular: 1.2rem;
@@ -25,5 +25,5 @@
 
 @custom-media --only-small-screen (width >= 360px);
 @custom-media --only-regular-screen (width >= 660px);
-@custom-media --only-medium-screen (width >= 900px);
+@custom-media --only-medium-screen (width >= 1100px);
 @custom-media --only-large-screen (width >= 1400px);

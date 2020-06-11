@@ -5,9 +5,14 @@
   text-decoration: none;
   padding: var(--spacerSmall) var(--spacerRegular);
   border-radius: 1.5rem;
+  text-transform: uppercase;
 }
 
 .button__big {
   padding: var(--spacerRegular) var(--spacerBig);
   border-radius: 2rem;
+}
+
+.button__secondary {
+  color: var(--colorSecondary);
 }
