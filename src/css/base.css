@@ -15,4 +15,9 @@ body {
   font-size: var(--fontRegular);
   background-color: var(--colorBGMain);
   color: var(--colorText);
+  width: 100%;
+}
+
+.hidden {
+  display: none;
 }
