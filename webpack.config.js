@@ -49,6 +49,7 @@ module.exports = (env, {mode}) => {
             }
           }
         },
+
         {
           test: /\.css$/,
           use: [
@@ -68,6 +69,17 @@ module.exports = (env, {mode}) => {
               }
             }
           ]
+        },
+        {
+          type: 'javascript/auto',
+          test: /\.json$/,
+          include: /(lottie)/,
+          loader: 'lottie-web-webpack-loader',
+          options: {
+            assets: {
+              scale: 0.5 // proportional resizing multiplier
+            }
+          }
         }
       ]
     },

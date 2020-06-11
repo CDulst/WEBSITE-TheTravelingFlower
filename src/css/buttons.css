@@ -1,22 +1,18 @@
-.spaced {
-  padding: var(--spacerBig);
-}
-
-.hide {
-  display: none;
-}
-
-.highlight {
-  color: var(--colorMain);
-}
-
 .button {
-  cursor: pointer;
-  display: inline-block;
-  font-size: var(--fontSmall);
-  color: var(--colorLightest);
-  padding: var(--spacerSmall) var(--spacerRegular);
   background: var(--colorSecondary);
+  list-style-type: none;
+  color: var(--colorLight);
+  text-decoration: none;
+  padding: var(--spacerSmall) var(--spacerRegular);
+  border-radius: 1.5rem;
+  text-transform: uppercase;
+}
+
+.button__big {
+  padding: var(--spacerRegular) var(--spacerBig);
   border-radius: 2rem;
-  border: 0;
+}
+
+.button__secondary {
+  color: var(--colorSecondary);
 }
