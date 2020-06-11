@@ -20,8 +20,15 @@ h3, .h3-like {
   font-size: var(--fontMedium);
 }
 
-button {
+.button {
   font-family: var(--fontButtons);
   font-weight: var(--fontWeightBold);
+}
+
+.button__small {
   font-size: var(--fontSmall);
+}
+
+.button__big {
+  font-size: var(--fontMedium);
 }

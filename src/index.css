@@ -4,6 +4,7 @@
 @import './css/base.css';
 @import './css/typography.css';
 @import './css/layout.css';
+@import './css/buttons.css';
 
 /* Components */
 @import './css/components/header.css';

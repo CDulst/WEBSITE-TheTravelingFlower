@@ -40,9 +40,9 @@
   --colorSecondary: #104ccf;
   --colorLight: white;
   --colorBGDark: #0a2f2f;
-  --spacerSmall: 1rem;
-  --spacerRegular: 5rem;
-  --spacerBig: 10rem;
+  --spacerSmall: .5rem;
+  --spacerRegular: 1rem;
+  --spacerBig: 2.5rem;
   --fontSmall: 1rem;
   --fontRegular: 1.2rem;
   --fontMedium: 1.8rem;
