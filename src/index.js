@@ -1,5 +1,4 @@
-require('./index.css');
-
+import './index.css';
 {
 
   const init = () => {

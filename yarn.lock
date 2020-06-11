@@ -3012,6 +3012,11 @@ follow-redirects@^1.0.0:
   dependencies:
     debug "^3.0.0"
 
+font-face@^2.3.2:
+  version "2.3.2"
+  resolved "https://registry.yarnpkg.com/font-face/-/font-face-2.3.2.tgz#5ba8e80a57b18c458ac5f148e64454f9aed06e66"
+  integrity sha512-A8D52qa8vzFKpWIQotUayNNFR1Yt8byXnIIixxEduULHeXTAd6xw0RC8E1TmkELl5DjvvYvkk1IdYEZ8RMQkMQ==
+
 for-in@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/for-in/-/for-in-1.0.2.tgz#81068d295a8142ec0ac726c6e2200c30fb6d5e80"

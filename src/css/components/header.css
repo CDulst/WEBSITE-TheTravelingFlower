@@ -24,7 +24,6 @@
 
 .menu__items {
   display: flex;
-  list-style-type: none;
 }
 
 .align {

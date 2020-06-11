@@ -1,37 +1,4 @@
 
-/*@font-face {
-  font-family: abrilfatface;
-  src:
-    url(../fonts/AbrilFatface-Regular.woff2) format('woff2'),
-    url(../fonts/AbrilFatface-Regular.woff) format('woff');
-  font-weight: var(--fontWeightAlt);
-}
-
-@font-face {
-  font-family: opensans;
-  src:
-    url(../fonts/OpenSansBold.woff2) format('woff2'),
-    url(../fonts/OpenSansBold.woff) format('woff');
-  font-weight: var(--fontWeightBold);
-}
-
-@font-face {
-  font-family: opensans;
-  src:
-    url(../fonts/OpenSansLight.woff2) format('woff2'),
-    url(../fonts/OpenSansLight.woff) format('woff');
-  font-weight: var(--fontWeightRegular);
-}
-
-@font-face {
-  font-family: roboto;
-  src:
-    url(../fonts/Roboto-Bold.woff2) format('woff2'),
-    url(../fonts/Roboto-Bold.woff) format('woff');
-  font-weight: var(--fontWeightBold);
-}
-*/
-
 :root {
   --colorText: black;
   --navText: #555;
@@ -48,12 +15,12 @@
   --fontRegular: 1.2rem;
   --fontMedium: 1.8rem;
   --fontBig: 2.5rem;
-  --font: opensans;
-  --fontAlt: abrilfatface;
-  --fontButtons: roboto;
+  --font: 'Open sans';
+  --fontButtons: 'Roboto';
+  --fontAlt: 'Abril Fatface', serif;
   --fontWeightRegular: 300;
-  --fontWeightBold: 900;
-  --fontWeightAlt: 600;
+  --fontWeightBold: 700;
+  --fontWeightAlt: 400;
 }
 
 @custom-media --only-small-screen (width >= 360px);

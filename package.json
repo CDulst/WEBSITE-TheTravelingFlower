@@ -35,5 +35,8 @@
     "last 2 versions",
     "> 1%",
     "not dead"
-  ]
+  ],
+  "dependencies": {
+    "font-face": "^2.3.2"
+  }
 }

@@ -49,6 +49,7 @@ module.exports = (env, {mode}) => {
             }
           }
         },
+
         {
           test: /\.css$/,
           use: [
@@ -68,7 +69,7 @@ module.exports = (env, {mode}) => {
               }
             }
           ]
-        }
+        },
       ]
     },
     plugins: [
