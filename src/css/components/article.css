@@ -1,17 +1,21 @@
 .article__practicalInfo {
   text-align: center;
 
-  @media (--only-medium-screen) {
+  @media (--only-large-screen) {
     display: flex;
     align-items: center;
     text-align: left;
   }
 }
 
-.section__paragraph {
-  width: 100%;
+.outLineRight {
+  flex-direction: row-reverse;
+}
 
-  @media (--only-medium-screen) {
+.section__paragraph {
+  width: 90%;
+
+  @media (--only-large-screen) {
     width: 80%;
   }
 }
