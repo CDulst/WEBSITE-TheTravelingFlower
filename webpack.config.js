@@ -90,7 +90,11 @@ module.exports = (env, {mode}) => {
       }),
       new HtmlWebPackPlugin({
         template: './src/charities.html',
+<<<<<<< HEAD
         filename: './charities.html'
+=======
+        filename: './pages/charities.html'
+>>>>>>> ad987dbf718de78c01b931d3714d28fe2cc0e135
       }),
       new MiniCssExtractPlugin({
         filename: 'style.[contenthash].css'
