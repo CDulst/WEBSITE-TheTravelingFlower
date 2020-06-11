@@ -26,3 +26,10 @@ body {
 ul {
   list-style-type: none;
 }
+
+.main {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-right: 10%;
+  padding-left: 10%;
+}
