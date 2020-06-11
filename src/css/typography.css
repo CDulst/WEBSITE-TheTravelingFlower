@@ -1,31 +1,38 @@
 body {
-  font-size: var(--fontRegular);
   font-family: var(--font);
   font-weight: var(--fontWeightRegular);
+  font-size: var(--fontRegular);
+}
 
+.bold {
+  font-weight: var(--fontWeightBold);
 }
 
 h1, .h1-like {
-  color: var(--colorMain);
-  font-size: var(--fontBig);
-  font-family: var(--fontAlt);
-  font-weight: var(--fontWeightAlt);
-  margin: 0 0 1rem;
+  /*.....*/
 }
 
 h2, .h2-like {
-  color: var(--colorMain);
-  font-size: var(--fontMedium);
   font-family: var(--fontAlt);
   font-weight: var(--fontWeightAlt);
-  margin: 0 0 1rem;
+  font-size: var(--fontBig);
 }
 
 h3, .h3-like {
-  /* display: block;
+  font-family: var(--fontAlt);
+  font-weight: var(--fontWeightAlt);
+  font-size: var(--fontMedium);
+}
+
+.button {
+  font-family: var(--fontButtons);
+  font-weight: var(--fontWeightBold);
+}
+
+.button__small {
   font-size: var(--fontSmall);
-  font-family: var(--font);
-  font-weight: var(--fontWeightRegular);
-  text-transform: uppercase;
-  margin: 0 0 .65rem; */
+}
+
+.button__big {
+  font-size: var(--fontMedium);
 }

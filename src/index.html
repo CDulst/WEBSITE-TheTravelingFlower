@@ -3,16 +3,185 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,700|Roboto:700|Abril+Fatface"
+  rel="stylesheet">
   <title>The Traveling Flower</title>
 </head>
 
 <body>
-  <main>
 
- <header>
+<header class="header">
+  <h1 class="header__title hidden">The Traveling Flower</h1>
+    <div class="header__wrapper">
+      <a class="align" href="./index.html"><img src="./assets/images/logo.svg" alt="logo"></a>
+      <nav class="navigation">
+        <ul class="menu__items">
+          <li class="menu__item"><a class="menu__item__link bold" href="">Traveling flower</a></li>
+          <li class="menu__item"><a class="menu__item__link bold" href="">Impact</a></li>
+          <li class="menu__item"><a class="menu__item__link bold " href="">Charities and Partners</a></li>
+        </ul>
+      </nav>
+      <div class="mobile__hidden"><a class="button" href="">Get involved</a></div>
+    </div>
+</header>
 
- </header>
+<div class="wrapper">
+<main class="main">
 
+  <section class="section__landingView">
+    <h2 class="hidden section__title">About us</h2>
+    <p class="section__landingView__paragraph bold alignText subtitle">Traveling flower makes a difference!</p>
+    <p class="section__landingView__bigParagraph h2-like alignText"> Creating unique travel experiences from home while supporting our world</p>
+
+      <ul class="button__items">
+        <li class="button__item spacer"><a class="button button__small noWrap" href="">Join the adventure!</a></li>
+        <li class="button__item"><a class="button__secondary bold" href="">Support our movement</a></li>
+      </ul>
+
+      <div class="section__landingView__video">
+        <div class = "animation__container">
+          <img onclick="videoActivated()" class = "play" src="./assets/images/play.png" alt="">
+          <div id="anim" class = "anime"></div>
+          </div>
+          <div class = "hidden vidwrap">
+            <img onclick="videoDeactivated()" class = "cross" src="./assets/images/cross.png" alt="">
+        <video class = "video" width="1300px">
+            <source src="" type="video/mp4">
+            <source src="" type="video/ogg">
+          Your browser does not support the video tag.
+        </video>
+        <p>WTF</p>
+        </div>
+      </div>
+  </section>
+
+  <section class="section__practicalInfo">
+    <h2 class="hidden">practical Info</h2>
+    <article class="article__What article__practicalInfo">
+        <div class="article__wrapper left">
+        <h3 class="section__practicalInfo__title">What is the traveling flower?</h2>
+        <p  class="section__paragraph"> <strong class="bold">The Lady Slipper</strong>is an orchid in danger of extinction. The main reason is the change of the climate. We as an organization want to let this plant travel
+        in an ecolocical way to <strong class="bold">orchid reserve Yachang in China</strong>. There he can reproduce and create a new population. The plant is transported by our community who move it from checkpoint to checkpoint in the most ecological way.</p>
+        </div>
+        <img class="section__image" src="./assets/images/pink_flower.png" alt="pink flower">
+    </article>
+
+    <article class="article__How article__practicalInfo outLineRight">
+      <div class="article__wrapper">
+
+      <h3 class="section__title">How to transport</h2>
+      <p class="section__paragraph">The route has 24 checkpoints. We are looking for 24 volunteers who want to travel the flower from checkpoint to checkpoint. You can sign up become a carrier. As a carrier, you are responsible that the flower gets to its next checkpoint on the most ecological way</p>
+      <a class="button__primary" href="">Become a carrier</a>
+      </div>
+      <img class="section__image" src="./assets/images/TransportNew.png" alt="pink flower">
+    </article>
+
+    <article class="article__EndDestination article__practicalInfo">
+      <div class="article__wrapper">
+      <h3 class="section__title">End destination</h2>
+      <p class="section__paragraph"><strong class="bold">Yachang national park</strong> is a nature reserve located in Taiwan. It is a place where the orchid can live in it's natural habitat. There the flower can reproduce and start a new population. It's also the end destination of our journey
+      The lady slipper will be planted there, and be a symbolic place for our movement</p>
+    </div>
+    <img class="section__image" src="./assets/images/Enddestination.png" alt="pink flower">
+    </article>
+  </section>
+</div>
+
+  <article class="section__route">
+    <h2 class="section__title route__paragraph h3-like">Route of the traveling flower</h2>
+    <div class="section__route__map">
+    <!--background image implementerren zodat de button over de image kan geplaatst worden-->
+    <a class="button button__small" href="">Become a carrier</a>
+    </div>
+  </article>
+
+  <section class="section__impact">
+    <div class="wrapper">
+    <h2 class="section__title hidden">Impact</h2>
+
+    <div class="impact__wrapper">
+    <article class="article__comunity article__impact">
+      <h3 class="article__impact__title light">The community</h3>
+      <img src="./assets/images/charities.png" alt="commmunity">
+      <ul class="impact__items">
+        <li class="impact__item">Join the adventure</li>
+        <li class="impact__item">Keep track of the flower</li>
+        <li class="impact__item">participate with challenges</li>
+        <li class="impact__item">Affect how much we donate</li>
+      </ul>
+    </article>
+
+
+    <article class="article__charities article__impact">
+      <h3 class="article__impact__title light">Charities</h3>
+      <img src="./assets/images/charities.png" alt="charities">
+      <ul class="impact__items">
+        <li class="impact__item">Contribute to the environment</li>
+        <li class="impact__item">Choose 3 of the best charities and movements</li>
+        <li class="impact__item">Better yourself</li>
+      </ul>
+    </article>
+
+    <article class="article__impacts article__impact">
+      <h3 class="article__impact__title light">Impact</h3>
+      <img src="./assets/images/charities.png" alt="impacts">
+      <ul class="impact__items">
+        <li class="impact__item">Combating against deforestation, emission climate change, etc</li>
+        <li class="impact__item">Spreading awareness</li>
+        <li class="impact__item">Promoting ecological travel</li>
+      </ul>
+    </article>
+  </div>
+
+
+    <article class="article__join">
+      <a class="button button__big" href="">Join the adventure!</a>
+    </article>
+
+  </section>
 </main>
+
+</div>
+
+<footer class="footer">
+  <img src="./assets/images/logo.svg" alt="Logo__footer">
+</footer>
+
+<script>
+  function videoActivated(){
+      console.log("hello");
+      const video = document.querySelector(".video");
+    const doc = document.querySelector(".vidwrap");
+    setTimeout(
+        function(){doc.classList.remove("hidden")}
+        , 275);
+        setTimeout(
+        function(){doc.classList.add("video__container")}
+        , 180);
+       setTimeout(
+        function(){doc.classList.add("container__up")}
+        , 300);
+        setTimeout(
+        function(){video.play()}
+        , 1000);
+   }
+   function videoDeactivated(){
+  console.log("hello");
+  const video = document.querySelector(".video");
+    const doc = document.querySelector(".video__container");
+    setTimeout(
+        function(){video.pause()}
+        , 100);
+    setTimeout(
+        function(){doc.classList.remove("container__up")}
+        , 75);
+        setTimeout(
+        function(){doc.classList.remove("video__container")}
+        , 1000);
+       setTimeout(
+        function(){doc.classList.add("hidden")}
+        , 100);
+   }
+</script>
 </body>
 </html>

@@ -13,6 +13,48 @@ html {
 
 body {
   font-size: var(--fontRegular);
-  background-color: var(--colorLightest);
+  background-color: var(--colorBGMain);
   color: var(--colorText);
+  width: 100%;
+}
+
+.hidden {
+  display: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.main {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-right: 5%;
+  padding-left: 5%;
+  overflow: hidden;
+
+  @media (--only-medium-screen) {
+    padding-right: 10%;
+    padding-left: 10%;
+  }
+}
+
+h2,.h2-like,h3 {
+  color: var(--colorH3Dark);
+}
+
+.light {
+  color: var(--colorH3Light);
+}
+
+.wrapper {
+  @media (--only-large-screen) {
+    width: 94rem;
+    margin: 0 auto;
+  }
+
+}
+
+.section__impact {
+  background-color: var(--colorBGDark);
 }

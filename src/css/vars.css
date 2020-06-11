@@ -1,24 +1,30 @@
+
 :root {
-  --colorLightest: white;
-  --colorText: #211f1f;
-  --colorMain: #d69762;
-  --colorSecondary: #5ad485;
-  --colorLight: rgba(71, 55, 255, .08);
-  --colorGrayDark: #9c9c9c;
-  --spacerSmall: .75rem; /* 12px */
-  --spacerRegular: 1rem; /* 16px */
-  --spacerBig: 1.88rem; /* 30px */
-  --fontSmall: .85rem; /* 12px */
-  --fontRegular: 1.25rem; /* 18px */
-  --fontMedium: 1.75rem; /* 28px */
+  --colorText: black;
+  --navText: #555;
+  --subTitle: #0a2f2f;
+  --colorH3Light: #8acaa3;
+  --colorH3Dark: #0a824b;
+  --colorBGMain: #fcf6e9;
+  --colorSecondary: #104ccf;
+  --colorLight: white;
+  --colorBGDark: #0a2f2f;
+  --spacerSmall: .8rem;
+  --spacerRegular: 2rem;
+  --spacerBig: 2.5rem;
+  --fontSmall: 1rem;
+  --fontRegular: 1.2rem;
+  --fontMedium: 1.8rem;
   --fontBig: 2.5rem;
-  --font: 'Roboto', sans-serif;
-  --fontAlt: 'Playfair Display', serif;
-  --fontWeightRegular: 400;
-  --fontWeightBold: 500;
-  --fontWeightAlt: 700;
+  --font: 'Open sans';
+  --fontButtons: 'Roboto';
+  --fontAlt: 'Abril Fatface', serif;
+  --fontWeightRegular: 300;
+  --fontWeightBold: 700;
+  --fontWeightAlt: 400;
 }
 
 @custom-media --only-small-screen (width >= 360px);
 @custom-media --only-regular-screen (width >= 660px);
-@custom-media --only-medium-screen (width >= 900px);
+@custom-media --only-medium-screen (width >= 1100px);
+@custom-media --only-large-screen (width >= 1500px);

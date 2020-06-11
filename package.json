@@ -35,5 +35,11 @@
     "last 2 versions",
     "> 1%",
     "not dead"
-  ]
+  ],
+  "dependencies": {
+    "font-face": "^2.3.2",
+    "lottie": "^0.0.1",
+    "lottie-web": "^5.6.10",
+    "lottie-web-webpack-loader": "^0.0.3"
+  }
 }

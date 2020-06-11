@@ -1,0 +1,34 @@
+.impact__wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.article__impact {
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem;
+}
+
+.impact__items {
+  color: var(--colorBGMain);
+}
+
+.impact__item {
+  margin-bottom: 1rem;
+  list-style-type: disc;
+  line-height: 2.3rem;
+}
+
+.article__join {
+  height: 40rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../../assets/images/jungle.png);
+  background-position-y: 2rem;
+  background-repeat: no-repeat;
+}
