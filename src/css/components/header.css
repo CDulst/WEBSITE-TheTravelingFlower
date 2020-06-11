@@ -1,6 +1,8 @@
 .header {
   padding-top: 2rem;
   padding-bottom: 2rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
 }
 
 .navigation {
@@ -12,14 +14,22 @@
   }
 }
 
+.menu__item {
+  margin: var(--spacerSmall);
+}
+
 .menu__items {
   display: flex;
   list-style-type: none;
 }
 
+.align {
+  display: flex;
+  align-items: center;
+}
+
 .header__wrapper {
   display: flex;
-  justify-content: center;
 
   @media (--only-small-screen) {
     justify-content: space-between;
