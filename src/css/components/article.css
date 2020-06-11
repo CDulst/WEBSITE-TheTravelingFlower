@@ -10,16 +10,29 @@
 
 .outLineRight {
   flex-direction: row-reverse;
+
+}
+
+.right {
+  @media (--only-large-screen) {
+    margin-left: 2rem;
+  }
+}
+
+.left {
+  @media (--only-large-screen) {
+    margin-right: 5rem;
+  }
 }
 
 .section__paragraph {
-  width: 90%;
+  width: 100%;
 
   @media (--only-large-screen) {
-    width: 80%;
+    width: 100%;
   }
 }
 
 .section__image {
-  width: 100%;
+  width: 80%;
 }
