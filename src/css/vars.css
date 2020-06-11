@@ -34,6 +34,7 @@
 
 :root {
   --colorText: black;
+  --navText: #555;
   --colorH3Light: #8acaa3;
   --colorH3Dark: #0a824b;
   --colorBGMain: #fcf6e9;
@@ -58,3 +59,4 @@
 @custom-media --only-small-screen (width >= 360px);
 @custom-media --only-regular-screen (width >= 660px);
 @custom-media --only-medium-screen (width >= 900px);
+@custom-media --only-large-screen (width >= 1400px);

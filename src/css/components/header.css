@@ -1,8 +1,8 @@
 .header {
   padding-top: 2rem;
   padding-bottom: 2rem;
-  padding-right: 2rem;
-  padding-left: 2rem;
+  padding-right: 4rem;
+  padding-left: 4rem;
 }
 
 .navigation {
@@ -15,7 +15,11 @@
 }
 
 .menu__item {
-  margin: var(--spacerSmall);
+  margin: 2vw;
+
+  @media (--only-large-screen) {
+    margin: 5vw;
+  }
 }
 
 .menu__items {
@@ -34,4 +38,9 @@
   @media (--only-small-screen) {
     justify-content: space-between;
   }
+}
+
+.menu__item__link {
+  text-decoration: none;
+  color: var(--navText);
 }
