@@ -16,3 +16,7 @@ body {
   background-color: var(--colorBGMain);
   color: var(--colorText);
 }
+
+.hidden {
+  display: none;
+}
