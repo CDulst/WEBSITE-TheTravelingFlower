@@ -1,9 +1,0 @@
-.layout {
-}
-
-.container {
-  max-width: 70rem;
-  margin: 0 auto;
-  padding-left: var(--spacerBig);
-  padding-right: var(--spacerBig);
-}

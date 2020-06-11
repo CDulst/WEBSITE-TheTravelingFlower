@@ -13,6 +13,6 @@ html {
 
 body {
   font-size: var(--fontRegular);
-  background-color: var(--colorLightest);
+  background-color: var(--colorBGMain);
   color: var(--colorText);
 }
