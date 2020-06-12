@@ -6,11 +6,16 @@
   padding: var(--spacerSmall) var(--spacerRegular);
   border-radius: 1.5rem;
   text-transform: uppercase;
+  transition: ease-in-out .2s;
 }
 
 .button__big {
   padding: var(--spacerRegular) var(--spacerBig);
-  border-radius: 2rem;
+  border-radius: 4rem;
+}
+
+.button:hover {
+  background: var(--hoverButton);
 }
 
 .button__secondary {
