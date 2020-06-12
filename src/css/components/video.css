@@ -1,11 +1,16 @@
 
 .notVisible {
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
   opacity: 20%;
   transition: ease-in-out all .3s;
 >>>>>>> development
+=======
+  opacity: 20%;
+  transition: ease-in-out all .3s;
+>>>>>>> f5d901eb68f1640288521109d3dba7b1e411835e
 }
 
 .hidden {
