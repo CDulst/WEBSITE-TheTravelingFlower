@@ -16,8 +16,13 @@
       <a class="align" href="./index.html"><img src="./assets/images/logo.svg" alt="logo"></a>
       <nav class="navigation">
         <ul class="menu__items">
+<<<<<<< HEAD
           <li class="menu__item"><a class="menu__item__link bold" href="">Traveling flower</a></li>
           <li class="menu__item"><a class="menu__item__link bold" href="">Impact</a></li>
+=======
+          <li class="menu__item"><a class="menu__item__link bold" href="./index.html">Traveling flower</a></li>
+          <li class="menu__item"><a class="menu__item__link bold" href="#impact">Impact</a></li>
+>>>>>>> development
           <li class="menu__item"><a class="menu__item__link bold " href="./charities.html">Charities and Partners</a></li>
         </ul>
       </nav>
@@ -40,13 +45,13 @@
 
       <div class="section__landingView__video">
         <div class = "animation__container">
-          <img onclick="videoActivated()" class = "play" src="./assets/images/play.png" alt="">
+          <img onclick="videoActivated()" class = "play" src="./assets/images/play.svg" alt="">
           <div id="anim" class = "anime"></div>
           </div>
           <div class = "hidden vidwrap">
             <img onclick="videoDeactivated()" class = "cross" src="./assets/images/cross.png" alt="">
-        <video class = "video" width="1300px" controls>
-            <source src="" type="video/mp4">
+        <video class = "video" controls>
+            <source src="./assets//images//video.mp4" type="video/mp4">
             <source src="" type="video/ogg">
           Your browser does not support the video tag.
         </video>
@@ -94,7 +99,7 @@
     </div>
   </article>
 
-  <section class="section__impact">
+  <section id = "impact" class="section__impact">
     <div class="wrapper">
     <h2 class="section__title hidden">Impact</h2>
 
@@ -151,23 +156,27 @@
       console.log("hello");
       const video = document.querySelector(".video");
     const doc = document.querySelector(".vidwrap");
+    const body = document.querySelector("body")
+    const html = document.querySelector("html")
     setTimeout(
         function(){doc.classList.remove("hidden")}
-        , 275);
+        , 50);
         setTimeout(
-        function(){doc.classList.add("video__container")}
-        , 180);
+        function(){doc.classList.add("video__container"); body.classList.add("stop-scrolling"); html.classList.add("stop-scrolling")}
+        , 100);
        setTimeout(
         function(){doc.classList.add("container__up")}
-        , 300);
+        , 120);
         setTimeout(
         function(){video.play()}
-        , 1000);
+        , 300);
    }
    function videoDeactivated(){
   console.log("hello");
   const video = document.querySelector(".video");
     const doc = document.querySelector(".video__container");
+    const body = document.querySelector("body")
+    const html = document.querySelector("html")
     setTimeout(
         function(){video.pause()}
         , 100);
@@ -175,7 +184,7 @@
         function(){doc.classList.remove("container__up")}
         , 75);
         setTimeout(
-        function(){doc.classList.remove("video__container")}
+        function(){doc.classList.remove("video__container"); body.classList.remove("stop-scrolling"); html.classList.remove("stop-scrolling")}
         , 1000);
        setTimeout(
         function(){doc.classList.add("hidden")}

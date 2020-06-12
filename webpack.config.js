@@ -39,7 +39,7 @@ module.exports = (env, {mode}) => {
           ]
         },
         {
-          test: /\.(jpe?g|png|svg|webp)$/,
+          test: /\.(jpe?g|png|mp4|svg|webp)$/,
           use: {
             loader: 'url-loader',
             options: {
@@ -90,7 +90,11 @@ module.exports = (env, {mode}) => {
       }),
       new HtmlWebPackPlugin({
         template: './src/charities.html',
+<<<<<<< HEAD
         filename: './pages/charities.html'
+=======
+        filename: './charities.html'
+>>>>>>> development
       }),
       new MiniCssExtractPlugin({
         filename: 'style.[contenthash].css'
