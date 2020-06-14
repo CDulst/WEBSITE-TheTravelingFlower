@@ -1,6 +1,7 @@
 import './index.css';
 import lottie from 'lottie-web';
 import animationData from './animation.json';
+import './js/hamburgerMenu';
 
 
 const heroAnimation = lottie.loadAnimation({
