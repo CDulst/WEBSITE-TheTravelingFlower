@@ -2,10 +2,11 @@
   display: flex;
   width: 100%;
   justify-content: center;
-  margin-bottom: 5rem;
+  margin-top:3rem;
 }
 
 .charity__wrappers {
+  margin-bottom:2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -14,25 +15,21 @@
   border-radius: 1.8rem;
   padding: .2rem .3rem 2rem .3rem;
   background-color: var(--colorBGDark);
+
   @media (--only-medium-screen) {
     flex-direction: row;
     justify-content: space-around;
     padding: 2rem;
-    max-width: 80rem;
-  }
-}
-
-.charity__para {
-  @media (--only-medium-screen) {
-
+    max-width: 65rem;
   }
 }
 
 .charity__info {
   padding: .1rem 2rem;
   margin-bottom: 1rem;
+
   @media (--only-medium-screen) {
-   text-align: left;
+    text-align: left;
   }
 }
 
@@ -51,7 +48,15 @@
 
 .charity__img--wrapper {
   border-radius: 1.8rem;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+
   background-color: var(--colorBGMain);
+}
+
+.charity__img{
+
 }
 
 .paracolor {
@@ -61,3 +66,4 @@
 .smallerfont {
   font-size: .8rem;
 }
+

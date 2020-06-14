@@ -27,16 +27,44 @@
 
 .section__paragraph {
   width: 100%;
+  line-height: var(--spacerBig);
 
   @media (--only-large-screen) {
     width: 100%;
   }
 }
 
+.button__2article {
+  margin-bottom: var(--spacerBig);
+}
+
 .section__image {
   width: 60%;
+  margin-top: 3rem;
 
   @media (--only-large-screen) {
     width: 80%;
+  }
+}
+
+.smaller {
+  width: 70%;
+
+  @media (--only-large-screen) {
+    width: 50%;
+  }
+
+}
+
+.destination__image {
+  @media (--only-large-screen) {
+    margin-left: var(--spacerBig);
+  }
+
+}
+
+.train__image {
+  @media (--only-large-screen) {
+    margin-right: var(--spacerBig);
   }
 }
