@@ -28,7 +28,14 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(../../assets/images/jungle.png);
+  background-image: url(../../assets/images/jungle2.png);
   background-position-y: 2rem;
   background-repeat: no-repeat;
+  background-size: 90rem;
+
+  @media (--only-large-screen) {
+    background-size: 100%;
+    background-position-x: 0;
+
+  }
 }
