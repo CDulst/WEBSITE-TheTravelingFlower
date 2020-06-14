@@ -55,3 +55,16 @@
   }
 
 }
+
+.destination__image {
+  @media (--only-large-screen) {
+    margin-left: var(--spacerBig);
+  }
+
+}
+
+.train__image {
+  @media (--only-large-screen) {
+    margin-right: var(--spacerBig);
+  }
+}

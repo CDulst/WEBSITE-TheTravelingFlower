@@ -2,10 +2,11 @@
   display: flex;
   width: 100%;
   justify-content: center;
-  margin-bottom: 5rem;
+  margin-top:3rem;
 }
 
 .charity__wrappers {
+  margin-bottom:2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -18,13 +19,7 @@
     flex-direction: row;
     justify-content: space-around;
     padding: 2rem;
-    max-width: 80rem;
-  }
-}
-
-.charity__para {
-  @media (--only-medium-screen) {
-
+    max-width: 65rem;
   }
 }
 
@@ -51,7 +46,15 @@
 
 .charity__img--wrapper {
   border-radius: 1.8rem;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+
   background-color: var(--colorBGMain);
+}
+
+.charity__img{
+
 }
 
 .paracolor {
@@ -61,3 +64,4 @@
 .smallerfont {
   font-size: .8rem;
 }
+

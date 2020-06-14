@@ -11,8 +11,6 @@ const heroAnimation = lottie.loadAnimation({
 
 heroAnimation.goToAndPlay(0, true);
 
-
-
 {
 
   const init = () => {
