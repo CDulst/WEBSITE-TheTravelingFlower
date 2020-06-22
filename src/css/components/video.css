@@ -42,11 +42,6 @@
 
 }
 
-.bg_video {
-  box-shadow: 0 .6rem 1.5rem #000000;
-
-}
-
 .play {
   z-index: 3;
   grid-row: 2;
@@ -93,11 +88,11 @@
 .video {
   width: 100%;
   margin-top: 10rem;
-  background-color: #fff;
+  background-color: #ffffff;
 
   @media (--only-large-screen) {
     width: 70%;
-
+    margin-top: 5rem;
   }
 
 }
