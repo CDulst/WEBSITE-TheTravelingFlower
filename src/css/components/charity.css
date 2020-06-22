@@ -55,10 +55,6 @@
   background-color: var(--colorBGMain);
 }
 
-.charity__img{
-
-}
-
 .paracolor {
   color: var(--colorBGMain);
 }
@@ -66,4 +62,3 @@
 .smallerfont {
   font-size: .8rem;
 }
-
