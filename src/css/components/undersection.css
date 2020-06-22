@@ -23,7 +23,10 @@
   line-height: 2.3rem;
 }
 
+.impact__image {
+  width: 14rem;
 
+}
 
 .article__join {
   height: 40rem;

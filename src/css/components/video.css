@@ -42,11 +42,10 @@
 
 }
 
-.bg_video{
-  outline: none;
+.bg_video {
+  box-shadow: 0 .6rem 1.5rem #000000;
 
 }
-
 
 .play {
   z-index: 3;

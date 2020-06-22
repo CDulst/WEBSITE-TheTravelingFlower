@@ -30,7 +30,7 @@
   line-height: var(--spacerBig);
 
   @media (--only-large-screen) {
-    width: 100%;
+    width: 95%;
   }
 }
 
@@ -45,6 +45,9 @@
   @media (--only-large-screen) {
     width: 80%;
   }
+}
+.section__image--slipper{
+  width: 50%;
 }
 
 .smaller {
@@ -67,4 +70,16 @@
   @media (--only-large-screen) {
     margin-right: var(--spacerBig);
   }
+}
+
+.section__route__map {
+  background-image: url(../../assets/images/route.png);
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+
+}
+
+.button__home--road {
+  margin: auto;
 }
