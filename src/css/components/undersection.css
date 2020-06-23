@@ -35,6 +35,7 @@
   justify-content: center;
   background-image: url(../../assets/images/jungle2.png);
   background-position-y: 2rem;
+  background-position-x: center;
   background-repeat: no-repeat;
   background-size: 90rem;
 
