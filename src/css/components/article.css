@@ -62,6 +62,7 @@
 .destination__image {
   @media (--only-large-screen) {
     margin-left: var(--spacerBig);
+    width:45rem
   }
 
 }
