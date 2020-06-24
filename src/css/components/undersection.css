@@ -23,12 +23,25 @@
   line-height: 2.3rem;
 }
 
+.impact__image {
+  width: 14rem;
+
+}
+
 .article__join {
   height: 40rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(../../assets/images/jungle.png);
+  background-image: url(../../assets/images/jungle2.png);
   background-position-y: 2rem;
+  background-position-x: center;
   background-repeat: no-repeat;
+  background-size: 90rem;
+
+  @media (--only-large-screen) {
+    background-size: 100%;
+    background-position-x: 0;
+
+  }
 }

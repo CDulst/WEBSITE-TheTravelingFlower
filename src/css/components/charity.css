@@ -6,7 +6,7 @@
 }
 
 .charity__wrappers {
-  margin-bottom:2rem;
+  margin-bottom: 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -15,19 +15,39 @@
   border-radius: 1.8rem;
   padding: .2rem .3rem 2rem .3rem;
   background-color: var(--colorBGDark);
+
   @media (--only-medium-screen) {
     flex-direction: row;
     justify-content: space-around;
-    padding: 2rem;
+    padding: 2rem 1rem;
     max-width: 65rem;
   }
+}
+
+.charity__para {
+  line-height: 169.3%;
+}
+
+.charity__para--small {
+  @media (--only-medium-screen) {
+    text-align: left;
+    padding-left: 2rem;
+  }
+}
+
+.charity__para--small::before {
+  display: inline-block;
+  content: '•';
+  font-size: 4rem;
+
 }
 
 .charity__info {
   padding: .1rem 2rem;
   margin-bottom: 1rem;
+
   @media (--only-medium-screen) {
-   text-align: left;
+    text-align: left;
   }
 }
 
@@ -46,10 +66,15 @@
 
 .charity__img--wrapper {
   border-radius: 1.8rem;
-  display:flex;
-  justify-content:center;
-  align-items:center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   background-color: var(--colorBGMain);
+
+  @media (--only-medium-screen) {
+    min-width: 23.5rem;
+  }
 }
 
 .paracolor {
@@ -58,5 +83,12 @@
 
 .smallerfont {
   font-size: .8rem;
-}
+  justify-content: center;
+  display: flex;
+  align-items: center;
 
+  @media (--only-medium-screen) {
+    justify-content: left;
+  }
+
+}

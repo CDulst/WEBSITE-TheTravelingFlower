@@ -27,16 +27,60 @@
 
 .section__paragraph {
   width: 100%;
+  line-height: var(--spacerBig);
 
   @media (--only-large-screen) {
-    width: 100%;
+    width: 95%;
   }
+}
+
+.button__2article {
+  margin-bottom: var(--spacerBig);
 }
 
 .section__image {
   width: 60%;
+  margin-top: 3rem;
 
   @media (--only-large-screen) {
     width: 80%;
   }
+}
+.section__image--slipper{
+  width: 50%;
+}
+
+.smaller {
+  width: 70%;
+
+  @media (--only-large-screen) {
+    width: 50%;
+  }
+
+}
+
+.destination__image {
+  @media (--only-large-screen) {
+    margin-left: var(--spacerBig);
+    width:45rem
+  }
+
+}
+
+.train__image {
+  @media (--only-large-screen) {
+    margin-right: var(--spacerBig);
+  }
+}
+
+.section__route__map {
+  background-image: url(../../assets/images/route.png);
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+
+}
+
+.button__home--road {
+  margin: auto;
 }

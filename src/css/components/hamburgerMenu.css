@@ -1,0 +1,8 @@
+.hamburger__menu {
+  display: block;
+  margin-top: var(--spacerSmall);
+
+  @media (--only-large-screen) {
+    display: none;
+  }
+}
