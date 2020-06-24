@@ -20,4 +20,9 @@
 
 .button__secondary {
   color: var(--colorSecondary);
+  transition: .3s ease;
+}
+
+.button__secondary:hover {
+  color: var(--hoverButton);
 }

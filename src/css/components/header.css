@@ -110,6 +110,11 @@
 .menu__item__link {
   text-decoration: none;
   color: var(--navText);
+  transition: .3s ease;
+}
+
+.menu__item__link:hover {
+  color: var(--colorSecondary);
 }
 
 .buttonInvolvedHamburger {
