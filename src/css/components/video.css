@@ -21,7 +21,7 @@
   position: fixed;
   left: 0;
   z-index: 3;
-  background-color:#fff;
+  background-color: var(--colorBGDark);
   top: 2000px;
   transition: ease-in-out all .8s;
 
@@ -39,6 +39,7 @@
   display: grid;
   grid-template-columns: 45% 1fr 45%;
   grid-template-rows: 45% 1fr 45%;
+
 }
 
 .play {
@@ -50,8 +51,12 @@
   transition: all ease-in-out .3s;
   cursor: pointer;
   transform-origin: center;
-
-  @media (--only-large-screen) {
+  position: relative;
+  bottom: 6rem;
+  @media(--only-regular-screen) {
+    bottom: 12rem;
+  }
+  @media(--only-large-screen) {
     margin-top: -6rem;
 
   }
@@ -83,10 +88,11 @@
 .video {
   width: 100%;
   margin-top: 10rem;
+  background-color: #ffffff;
 
   @media (--only-large-screen) {
     width: 70%;
-
+    margin-top: 5rem;
   }
 
 }

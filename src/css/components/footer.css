@@ -2,3 +2,6 @@
   display: flex;
   justify-content: center;
 }
+.footer__logo{
+  padding-top: 2rem;
+}

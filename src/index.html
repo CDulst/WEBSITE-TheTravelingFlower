@@ -10,26 +10,26 @@
 
 <body>
 
-<header class="header">
-  <h1 class="header__title hidden">The Traveling Flower</h1>
-    <div class="header__wrapper">
-      <a class="align" href="./index.html"><img src="./assets/images/logo.svg" alt="logo"></a>
-      <nav class="navigation">
-        <img class="navigation__cross" src="./assets//images//cross.svg" alt="cross">
-        <ul class="menu__items">
-          <li class="menu__item"><a class="menu__item__link bold" href="./index.html">Traveling flower</a></li>
-          <li class="menu__item"><a class="menu__item__link bold" href="#impact">Impact</a></li>
-          <li class="menu__item"><a class="menu__item__link bold " href="./charities.html">Charities and Partners</a></li>
-          <li><a class="button buttonInvolvedHamburger" href="https://lucid-euclid-c7da78.netlify.app/">Get involved</a></li>
-        </ul>
+  <header class="header">
+    <h1 class="header__title hidden">The Traveling Flower</h1>
+      <div class="header__wrapper">
+        <a class="align" href="./index.html"><img src="./assets/images/logo.svg" alt="logo"></a>
+        <nav class="navigation">
+          <img class="navigation__cross" src="./assets//images//cross.svg" alt="cross">
+          <ul class="menu__items">
+            <li class="menu__item"><a class="menu__item__link bold" href="./index.html">Traveling flower</a></li>
+            <li class="menu__item"><a class="menu__item__link bold" href="#impact">Impact</a></li>
+            <li class="menu__item"><a class="menu__item__link bold " href="./charities.html">Charities and Partners</a></li>
+            <li><a class="button buttonInvolvedHamburger" href="https://lucid-euclid-c7da78.netlify.app/">Get involved</a></li>
+          </ul>
 
-      </nav>
-      <div class="mobile__hidden"><a class="button" href="https://lucid-euclid-c7da78.netlify.app/">Get involved</a></div>
-      <a class="hamburger__menu" href=""><img src="./assets//images/Hamburger.svg" alt="menu"></a>
-    </div>
+        </nav>
+        <div class="mobile__hidden"><a class="button" href="https://lucid-euclid-c7da78.netlify.app/">Get involved</a></div>
+        <a class="hamburger__menu" href=""><img src="./assets//images/Hamburger.svg" alt="menu"></a>
+      </div>
 
 
-</header>
+  </header>
 
 <div class="wrapper">
 <main class="main">
@@ -41,18 +41,22 @@
 
       <ul class="button__items">
         <li class="button__item spacer"><a class="button button__small noWrap" href="https://lucid-euclid-c7da78.netlify.app/">Join the adventure!</a></li>
-        <li class="button__item"><a class="button__secondary bold" href="">Support our movement</a></li>
+        <li class="button__item"><a class="button__secondary bold" href="./charities.html">Support our movement</a></li>
       </ul>
 
       <div class="section__landingView__video">
+        <video width="100%" class="bg_video" allow="autoplay" autoplay loop muted>
+          <source src="./assets/images/bg_animatie.mp4"  type="video/mp4">
+          <source src="" type="video/ogg">
+              Your browser does not support the video tag.
+      </video>
         <div class = "animation__container">
           <img onclick="videoActivated()" class = "play" src="./assets/images/play.svg" alt="">
-          <div id="anim" class = "anime"></div>
-          </div>
+
           <div class = "hidden vidwrap">
             <img onclick="videoDeactivated()" class = "cross" src="./assets/images/cross.png" alt="">
         <video class = "video" controls>
-            <source src="./assets//images//video.mp4" type="video/mp4">
+            <source src="./assets//images//theTravelingFlower.mp4" type="video/mp4">
             <source src="" type="video/ogg">
           Your browser does not support the video tag.
         </video>
@@ -65,18 +69,18 @@
     <article class="article__What article__practicalInfo">
         <div class="article__wrapper left">
         <h3 class="section__practicalInfo__title">What is the traveling flower?</h2>
-        <p  class="section__paragraph"> <strong class="bold">The Lady Slipper</strong>is an orchid in danger of extinction. The main reason is the change of the climate. We as an organization want to let this plant travel
+        <p  class="section__paragraph"> <strong class="bold">The Lady Slipper</strong> is an orchid in danger of extinction. The main reason is the change of the climate. We as an organization want to let this plant travel
         in an ecolocical way to <strong class="bold">orchid reserve Yachang in China</strong>. There he can reproduce and create a new population. The plant is transported by our community who move it from checkpoint to checkpoint in the most ecological way.</p>
         </div>
-        <img class="section__image" src="./assets/images/pink_flower.png" alt="pink flower">
+        <img class="section__image section__image--slipper" src="./assets/images/pink_flower.png" alt="pink flower">
     </article>
 
     <article class="article__How article__practicalInfo outLineRight">
       <div class="article__wrapper">
 
       <h3 class="section__title">How to transport</h2>
-      <p class="section__paragraph button__2article">The route has 24 checkpoints. We are looking for 24 volunteers who want to travel the flower from checkpoint to checkpoint. You can sign up become a carrier. As a carrier, you are responsible that the flower gets to its next checkpoint on the most ecological way</p>
-      <a class="button" href="">Become a carrier</a>
+      <p class="section__paragraph button__2article">The route has 24 checkpoints. We are looking for 24 volunteers who want to travel the flower from checkpoint to checkpoint. You can sign up become a carrier. As a carrier, you are responsible that the flower gets to its next checkpoint on the most ecological way.</p>
+      <a class="button" href="https://lucid-euclid-c7da78.netlify.app/apply">Become a carrier</a>
       </div>
       <img class="section__image smaller train__image" src="./assets/images/transport.png" alt="pink flower">
     </article>
@@ -85,7 +89,7 @@
       <div class="article__wrapper">
       <h3 class="section__title">End destination</h2>
       <p class="section__paragraph"><strong class="bold">Yachang national park</strong> is a nature reserve located in Taiwan. It is a place where the orchid can live in it's natural habitat. There the flower can reproduce and start a new population. It's also the end destination of our journey
-      The lady slipper will be planted there, and be a symbolic place for our movement</p>
+      The lady slipper will be planted there, and be a symbolic place for our movement.</p>
     </div>
     <img class="section__image smaller destination__image" src="./assets/images/destination.png" alt="pink flower">
     </article>
@@ -93,10 +97,11 @@
 </div>
 
   <article class="section__route">
-    <h2 class="section__title route__paragraph h3-like">Route of the traveling flower</h2>
+    <h2 class="section__title route__paragraph h3-like h3-blue">Route of the traveling flower</h2>
     <div class="section__route__map">
     <!--background image implementerren zodat de button over de image kan geplaatst worden-->
-    <a class="button button__small" href="https://lucid-euclid-c7da78.netlify.app/apply">Become a carrier</a>
+
+    <a class="button button__small button__home--road" href="https://lucid-euclid-c7da78.netlify.app/apply">Become a carrier</a>
     </div>
   </article>
 
@@ -107,7 +112,7 @@
     <div class="impact__wrapper">
     <article class="article__comunity article__impact">
       <h3 class="article__impact__title light">The community</h3>
-      <img src="./assets/images/charities.png" alt="commmunity">
+      <img src="./assets/images/community.png" class="impact__image" alt="commmunity">
       <ul class="impact__items">
         <li class="impact__item">Join the adventure</li>
         <li class="impact__item">Keep track of the flower</li>
@@ -119,7 +124,7 @@
 
     <article class="article__charities article__impact">
       <h3 class="article__impact__title light">Charities</h3>
-      <img src="./assets/images/charities.png" alt="charities">
+      <img src="./assets/images/charity.png" class="impact__image" alt="charities">
       <ul class="impact__items">
         <li class="impact__item">Contribute to the environment</li>
         <li class="impact__item">Choose 3 of the best charities and movements</li>
@@ -129,7 +134,7 @@
 
     <article class="article__impacts article__impact">
       <h3 class="article__impact__title light">Impact</h3>
-      <img src="./assets/images/charities.png" alt="impacts">
+      <img src="./assets/images/impact.png"  class="impact__image" alt="impacts">
       <ul class="impact__items">
         <li class="impact__item">Combating against deforestation, emission climate change, etc</li>
         <li class="impact__item">Spreading awareness</li>
@@ -149,7 +154,7 @@
 </div>
 
 <footer class="footer">
-  <img src="./assets/images/logo.svg" alt="Logo__footer">
+  <img src="./assets/images/logo.svg" alt="Logo__footer" class="footer__logo">
 </footer>
 
 <script>
